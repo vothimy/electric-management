@@ -1,0 +1,157 @@
+/*
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
+ * Version: 1.9.2
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
+*/
+
+/*Import Global Compulsory CSS Files*/
+@import url(app.css);
+@import url(blocks.css);
+
+/*Import CSS Plugins*/
+@import url(plugins/style-switcher.css);
+
+* {
+	border-radius: 0;
+}
+
+body {
+ color: #333;
+ font-size: 13px;
+ line-height: 1.6;
+}
+#tblxemlichsu{
+    margin:0 auto;
+    color:#000;
+    border:1px solid #e5e5e5;
+    padding:10px 25px;
+}
+#tblxemlichsu tr{
+    color:#000;
+    border:1px solid #e5e5e5;
+    padding:10px 25px;
+}
+#tblxemlichsu th{
+    color:#000;
+    border:1px solid #e5e5e5;
+    padding:10px 25px;
+}
+#tblxemlichsu td{
+    color:#000;
+    border:1px solid #e5e5e5;
+    padding:10px 25px;
+}
+body.header-fixed-space {
+  padding-top: 94px;
+}
+body.header-fixed-space-v2 {
+	padding-top: 135px;
+}
+
+@media (max-width: 991px) {
+	body.header-fixed-space,
+	body.header-fixed-space-v2 {
+		padding-top: 0;
+	}
+}
+
+p,
+li,
+label {
+ color: #555;
+}
+li a {
+    color: #004d99;
+}
+a {
+ color: #72c02c;
+ text-decoration: none;
+}
+
+a,
+a:focus,
+a:hover,
+a:active,
+button,
+button:hover {
+	outline: 0 !important;
+}
+
+a:focus {
+text-decoration: none;
+}
+a:hover {
+ color: #72c02c;
+ text-decoration: underline;
+}
+
+/*Boxed Layout
+------------------------------------*/
+.wrapper {
+	background: #fff;
+}
+
+.boxed-layout {
+  padding: 0;
+  box-shadow: 0 0 5px #ccc;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background: url(../img/patterns/15.png) repeat;
+}
+
+/*Hiding arrows for select field in IE*/
+select::-ms-expand {
+  display: none;
+}
+
+/*HoiTTN Add - Start*/
+.img_cen {
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+    height:auto;
+    border-radius:15px;
+}
+@media(max-width: 1024px) {
+    .par_btn {
+        padding: 10px 15px;
+    }
+
+    .chir_btn {
+        padding: 0px 15px 10px;
+    }
+    .content-sm {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+}
+@media(min-width: 1440px) {
+    .div-btn {
+        position:relative; 
+        left:22px;
+    }
+}
+
+@media(min-width: 1025px) {
+    .btn-mar {
+        margin: 0px 45px;
+    }
+}
+@media(max-width: 767px) {
+    .par_btn-2 {
+        padding: 10px 15px;
+    }
+
+    .chir_btn-2 {
+        padding: 0px 15px 10px;
+    }
+}
+.img-pos {
+    margin-left: auto;
+    margin-right: auto;
+}
+/*HoiTTN Add - End*/
+
